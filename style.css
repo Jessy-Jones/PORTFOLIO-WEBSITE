@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    padding: 0px 50px;
+    font-size: 20px;
+    background-color: #FCFCF7;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo{
+    width: 10%;
+}
+.head__section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav__section{
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav__item{
+    padding: 25px;
+    cursor: pointer;
+}
+a:hover:not(:last-child){
+    text-decoration:underline purple;
+    color: purple;
+}
+.introduction{
+    padding-top: 50px;
+}
+.introduction h1{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+}
+.introduction h3{
+    font-size: 30px;
+}
+.myself{
+    padding-top: 15px;
+    padding-right: 50%;
+}
