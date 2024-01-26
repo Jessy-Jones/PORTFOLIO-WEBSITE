@@ -2,21 +2,23 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: #e5edff;
+    font-family: 'Manrope', sans-serif;
     
 }
 body{
     padding: 0px 50px;
     font-size: 20px;
-    background-color: #FCFCF7;
+    background-color: #005249;
+   
+}
+.logo{
+    padding-top: 30px;
+    color: #5be584;
+    list-style-type: none;
 }
 
-.logo{
-    width: 20%;
-}
 
-.logo{
-    width: 10%;
-}
 .head__section{
     display: flex;
     justify-content: space-between;
@@ -36,8 +38,8 @@ a{
     cursor: pointer;
 }
 a:hover:not(:last-child){
-    text-decoration:underline purple;
-    color: purple;
+    text-decoration:underline #e5edff;
+
 }
 .introduction{
     padding-top: 50px;
