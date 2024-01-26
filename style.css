@@ -15,7 +15,7 @@ body{
 .logo{
     padding-top: 30px;
     color: #5be584;
-    list-style-type: none;
+    text-decoration: none;
 }
 
 
@@ -37,7 +37,7 @@ a{
     padding: 25px;
     cursor: pointer;
 }
-a:hover:not(:last-child){
+.nav__link:hover:not(:last-child){
     text-decoration:underline #e5edff;
 
 }
