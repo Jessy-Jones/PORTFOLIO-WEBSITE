@@ -12,6 +12,9 @@ body{
     background-color: #005249;
    
 }
+.home__page{
+    display: flex;
+}
 .logo{
     padding-top: 30px;
     color: #5be584;
@@ -43,6 +46,8 @@ a{
 }
 .introduction{
     padding-top: 50px;
+    height: 85vh;
+    width: 50vw;
 }
 .introduction h1{
     font-size: 50px;
@@ -53,5 +58,44 @@ a{
 }
 .myself{
     padding-top: 15px;
-    padding-right: 50%;
+    padding-right: 30%;
+}
+
+.social__media__icons{
+    width: fit-content;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+.socials{
+    width: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 35%;
+    filter: invert(99%) sepia(35%) saturate(2706%) hue-rotate(60deg) brightness(92%) contrast(94%);
+    }
+      
+.linkedin{
+    margin-left: 0px;
+}
+.resume{
+margin-top: 20px;
+background-color:#53cd77;
+border: none;
+height: auto;
+width: 180px;
+padding: 10px;
+font-size: 18px;
+font-weight: 500;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.my__image{
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 40px;
 }
