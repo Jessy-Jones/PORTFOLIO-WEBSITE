@@ -98,4 +98,16 @@ cursor: pointer;
     border: 1px solid white;
     border-radius: 50%;
     margin-top: 40px;
+    background: url("./images/Snapchat-547269414.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.about{
+    width: auto;
+    height: 100vh;
+    border: 1px solid red;
+
 }
