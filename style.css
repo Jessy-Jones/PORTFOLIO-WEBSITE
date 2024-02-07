@@ -116,3 +116,15 @@ cursor: pointer;
 .about h1{
     margin-bottom: 20px;
 }
+ .portfolio{
+    border: 1px solid brown;
+    width: auto;
+    height: 100vh;
+ }
+
+ .contact{
+    border: 1px solid purple;
+    width: auto;
+    height: 100vh;
+
+ }
